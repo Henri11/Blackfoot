@@ -1,0 +1,196 @@
+ /* FONT FACE */
+
+ @font-face {
+     font-family: "source-bold";
+     src: url("../fonts/SourceSansPro-Bold.ttf");
+ }
+
+ @font-face {
+     font-family: "source-regular";
+     src: url("../fonts/SourceSansPro-Regular.ttf");
+ }
+
+ @font-face {
+     font-family: "source-light";
+     src: url("../fonts/SourceSansPro-Light.ttf");
+ }
+
+ /* GENERAL */
+
+ [class*="col-"] {
+     background-color: white;
+     border-radius: 6px;
+     line-height: 40px;
+     text-align: center;
+ }
+
+ body {
+     padding-top: 10px;
+     background-color: lightgray;
+ }
+
+ .collection {
+     background-color: transparent;
+ }
+
+ /* HEADER_HOME */
+
+ .background-header {
+     background-image: url("../img/shopping-2616824.jpg");
+     height: 200px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
+ .menu {
+     background-color: transparent;
+     border: none;
+ }
+
+ h1 {
+     color: white;
+ }
+
+ hedaer,
+ ul {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ header,
+ li {
+     list-style: none;
+
+ }
+
+ header,
+ a {
+     color: white;
+ }
+
+ header,
+ a:hover {
+     color: red;
+ }
+
+
+ /*MAIN_HOME*/
+
+ .shoes_collection {
+     background-image: url("../img/adult-1867073.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 160px;
+     color: red;
+     font-size: 20px;
+ }
+
+ .Free_shipping {
+     background-image: url("../img/livraison-gratuite.jpg");
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 160px;
+     color: black;
+     font-size: 20px;
+
+ }
+
+ .bag {
+     background-image: url("../img/online-shopping-2650383.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 160px;
+     color: red;
+     font-size: 20px;
+
+ }
+
+ .retour {
+     background-image: url("../img/retour%20gratuit.jpg");
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 160px;
+     color: red;
+     font-size: 20px;
+
+ }
+
+ .men {
+     background-image: url("../img/black-and-white-2558273.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 320px;
+     color: red;
+     font-size: 20px;
+ }
+
+ .photo {
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 10px;
+ }
+
+ .photo img {
+     height: 175px;
+     margin-top: 10px;
+ }
+
+ .shoes_collection img {
+     width: 100;
+
+ }
+
+
+ #slider {
+     margin-top: 25px;
+     background-color: transparent;
+
+ }
+
+ .flexslider {
+
+     width: 400px;
+     background-color: transparent;
+     border: none;
+     position: relative;
+ }
+
+
+ /* FOOTER */
+
+ .footer {
+     background-color: transparent;
+ }
+
+ /* MEDIA QUERI */
+
+ @media (max-width: 768px) {
+     .container {
+         width: 750px;
+     }
+
+     ul {
+         display: flex;
+         flex-direction: column;
+     }
+
+ }
+
+ @media (max-width: 992px) {
+     .container {
+         width: 970px;
+     }
+ }
+
+ @media (max-width: 1200px) {
+     .container {
+         width: 1170px;
+     }
+
+ }
