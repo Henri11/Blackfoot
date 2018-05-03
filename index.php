@@ -1,4 +1,4 @@
-<?php
+hp
 $id = 1;
 $slug = "Accueil";
 $title = 'Hight Dev - Accueil';
